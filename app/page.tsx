@@ -5,6 +5,7 @@ import Testimonials from "@/components/Testimonials";
 import ContactForm from "@/components/ContactForm";
 import ThreeTierPricingHorizontal from "@/components/Pricelist"; // Pricelist
 import Carousel from "@/components/Carousel";
+import SimpleAccordion from "@/components/SimpleAccordion";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
     <HeroSection/>
     <Features/>
     <Testimonials/>
+    <SimpleAccordion/>
     <Carousel/>
     <ThreeTierPricingHorizontal/>
     <ContactForm/>
