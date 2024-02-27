@@ -20,23 +20,23 @@ import {
 const avatars = [
   {
     name: 'Ryan Florence',
-    url: 'https://bit.ly/ryan-florence',
+    url: 'https://i.pinimg.com/originals/d7/66/bf/d766bf93576a7ea6497e37daa24b0345.jpg',
   },
   {
     name: 'Segun Adebayo',
-    url: 'https://bit.ly/sage-adebayo',
+    url: 'https://i.pinimg.com/236x/7f/af/e7/7fafe7c7cdae656f99506b1035dbbc3f.jpg',
   },
   {
     name: 'Kent Dodds',
-    url: 'https://bit.ly/kent-c-dodds',
+    url: 'https://wallpapers-clan.com/wp-content/uploads/2022/07/funny-cat-9.jpg',
   },
   {
     name: 'Prosper Otemuyiwa',
-    url: 'https://bit.ly/prosper-baba',
+    url: 'https://external-preview.redd.it/XIoUxFZScaDVjbXwqKzyfmtBA833rmynBzZBevhFmu4.jpg?width=640&crop=smart&auto=webp&s=489479029b9a621f577c9db7341b9ebaab2183ad',
   },
   {
     name: 'Christian Nwamba',
-    url: 'https://bit.ly/code-beast',
+    url: 'https://pets-society.com/wp-content/uploads/2023/02/Toyger-cat-profile.jpg',
   },
 ]
 
@@ -74,11 +74,11 @@ export default function ContactForm() {
           <Heading
             lineHeight={1.1}
             fontSize={{ base: '3xl', sm: '4xl', md: '5xl', lg: '6xl' }}>
-            Senior web designers{' '}
+            Дом для{' '}
             <Text as={'span'} bgGradient="linear(to-r, red.400,pink.400)" bgClip="text">
-              &
+              ваших
             </Text>{' '}
-            Full-Stack Developers
+            Пушистых любимцев
           </Heading>
           <Stack direction={'row'} spacing={4} align={'center'}>
             <AvatarGroup>
@@ -132,7 +132,7 @@ export default function ContactForm() {
                 top: 0,
                 left: 0,
               }}>
-              YOU
+              ВАШ
             </Flex>
           </Stack>
         </Stack>
@@ -153,14 +153,13 @@ export default function ContactForm() {
               </Text>
             </Heading>
             <Text color={'gray.500'} fontSize={{ base: 'sm', sm: 'md' }}>
-              We’re looking for amazing engineers just like you! Become a part of our
-              rockstar engineering team and skyrocket your career!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus hic deleniti, doloremque distinctio nesciunt tenetur. 
             </Text>
           </Stack>
-          <Box as={'form'} mt={10}>
+          <Box as={'form'} mt={2}>
             <Stack spacing={4}>
-              <Input
-                placeholder="Firstname"
+            <Input
+                placeholder="Имя"
                 bg={'gray.100'}
                 border={0}
                 color={'gray.500'}
@@ -169,7 +168,17 @@ export default function ContactForm() {
                 }}
               />
               <Input
-                placeholder="firstname@lastname.io"
+                placeholder="Имя питомца"
+                bg={'gray.100'}
+                border={0}
+                color={'gray.500'}
+                _placeholder={{
+                  color: 'gray.500',
+                }}
+              />
+              
+              <Input
+                placeholder="name@mail.ru"
                 bg={'gray.100'}
                 border={0}
                 color={'gray.500'}
@@ -178,7 +187,7 @@ export default function ContactForm() {
                 }}
               />
               <Input
-                placeholder="+1 (___) __-___-___"
+                placeholder="+7 (___) __-___-___"
                 bg={'gray.100'}
                 border={0}
                 color={'gray.500'}
@@ -186,9 +195,8 @@ export default function ContactForm() {
                   color: 'gray.500',
                 }}
               />
-              <Button fontFamily={'heading'} bg={'gray.200'} color={'gray.800'}>
-                Upload CV
-              </Button>
+              
+              
             </Stack>
             <Button
               fontFamily={'heading'}
@@ -200,7 +208,7 @@ export default function ContactForm() {
                 bgGradient: 'linear(to-r, red.400,pink.400)',
                 boxShadow: 'xl',
               }}>
-              Submit
+              Отправить
             </Button>
           </Box>
           form
