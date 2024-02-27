@@ -834,7 +834,7 @@ export default function HeroSection() {
         py={{ base: 20, md: 28 }}>
         <Heading
           fontWeight={600}
-          fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
+          fontSize={{ base: '3xl', sm: '6xl', md: '8xl' }}
           lineHeight={'110%'}>
           Оставьте вашу кошку в {' '}
           <Text as={'span'} color={'orange.400'}>
