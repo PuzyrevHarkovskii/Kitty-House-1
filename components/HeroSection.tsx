@@ -836,15 +836,13 @@ export default function HeroSection() {
           fontWeight={600}
           fontSize={{ base: '3xl', sm: '4xl', md: '6xl' }}
           lineHeight={'110%'}>
-          Meeting scheduling{' '}
+          Оставьте вашу кошку в {' '}
           <Text as={'span'} color={'orange.400'}>
-            made easy
+            Kitty House
           </Text>
         </Heading>
         <Text color={'gray.500'} maxW={'3xl'}>
-          Never miss a meeting. Never be late for one too. Keep track of your meetings and
-          receive smart reminders in appropriate times. Read your smart “Daily Agenda”
-          every morning.
+          Мы рады приветствовать всех любителей пушистых друзей и предлагаем услуги по временному уходу за вашими любимцами. Доверьте нам заботу о вашем мурлыкающем друге!
         </Text>
         <Stack spacing={6} direction={'row'}>
           <Button
@@ -853,10 +851,10 @@ export default function HeroSection() {
             colorScheme={'orange'}
             bg={'orange.400'}
             _hover={{ bg: 'orange.500' }}>
-            Get started
+            Оставить заявку
           </Button>
           <Button rounded={'full'} px={6}>
-            Learn more
+            Узнать больше
           </Button>
         </Stack>
         <Flex w={'full'}>

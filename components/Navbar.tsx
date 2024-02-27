@@ -81,7 +81,7 @@ export default function Navbar() {
             _hover={{
               bg: 'pink.300',
             }}>
-            Sign Up
+            Оставить заявку
           </Button>
         </Stack>
       </Flex>

@@ -60,7 +60,7 @@ const PackageTier = ({ title, options, typePlan, checked = false }: PackageTierP
           size="md"
           color={useColorModeValue(colorTextLight, colorTextDark)}
           bgColor={useColorModeValue(bgColorLight, bgColorDark)}>
-          Get Started
+          Оставить заявку
         </Button>
       </Stack>
     </Stack>
@@ -88,7 +88,7 @@ const ThreeTierPricingHorizontal = () => {
             }}
             textAlign={'center'}>
             <Heading size={'lg'}>
-              The Right Plan for <Text color="purple.400">Your Business</Text>
+              Наши <Text color="purple.400">Тарифы</Text>
             </Heading>
           </Stack>
           <Stack
@@ -103,16 +103,16 @@ const ThreeTierPricingHorizontal = () => {
           </Stack>
         </Stack>
         <Divider />
-        <PackageTier title={'Starter'} typePlan="Free" options={options} />
+        <PackageTier title={'Эконом'} typePlan="1800₽" options={options} />
         <Divider />
         <PackageTier
-          title={'Lorem Plus'}
+          title={'Комфорт+'}
           checked={true}
-          typePlan="$32.00"
+          typePlan="3200₽"
           options={options}
         />
         <Divider />
-        <PackageTier title={'Lorem Pro'} typePlan="$50.00" options={options} />
+        <PackageTier title={'Бизнес'} typePlan="5000₽" options={options} />
       </Stack>
     </Box>
   )
