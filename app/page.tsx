@@ -15,8 +15,8 @@ export default function Home() {
     <Features/>
     <Testimonials/>
     <SimpleAccordion/>
-    <Carousel/>
     <ThreeTierPricingHorizontal/>
+    <Carousel/>
     <ContactForm/>
     </>
   );

@@ -5,6 +5,7 @@ import {
   AccordionItem,
   AccordionButton,
   AccordionPanel,
+  Heading,
   Flex,
   useColorModeValue,
   Text,
@@ -21,6 +22,7 @@ export default function SimpleAccordion() {
       justify={'center'}
       bg={useColorModeValue('gray.50', 'gray.800')}>
       <Container>
+      <Heading pb = {10}>Часто задаваемые вопросы</Heading>
         <Accordion allowMultiple width="100%" maxW="lg" rounded="lg">
           <AccordionItem>
             <AccordionButton
