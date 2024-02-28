@@ -831,10 +831,10 @@ export default function HeroSection() {
         textAlign={'center'}
         align={'center'}
         spacing={{ base: 8, md: 10 }}
-        py={{ base: 20, md: 28 }}>
+        py={{ base: 10, md: 28 }}>
         <Heading
           fontWeight={600}
-          fontSize={{ base: '3xl', sm: '6xl', md: '8xl' }}
+          fontSize={{ base: '7xl', sm: '6xl', md: '8xl' }}
           lineHeight={'110%'}>
           Оставьте вашу кошку в {' '}
           <Text as={'span'} color={'orange.400'}>
