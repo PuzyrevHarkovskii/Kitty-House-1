@@ -73,7 +73,7 @@ export default function Navbar() {
           direction={'row'}
           spacing={6}>
           <Button as={'a'} fontSize={'sm'} fontWeight={400} variant={'link'} href={'#'}>
-            Sign In
+            Оставить заявку
           </Button>
           <Button
             as={'a'}

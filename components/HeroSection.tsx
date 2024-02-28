@@ -834,7 +834,7 @@ export default function HeroSection() {
         py={{ base: 10, md: 28 }}>
         <Heading
           fontWeight={600}
-          fontSize={{ base: '7xl', sm: '6xl', md: '8xl' }}
+          fontSize={{ base: '7xl', sm: '7xl', md: '8xl' }}
           lineHeight={'110%'}>
           Оставьте вашу кошку в {' '}
           <Text as={'span'} color={'orange.400'}>
@@ -850,10 +850,11 @@ export default function HeroSection() {
             px={6}
             colorScheme={'orange'}
             bg={'orange.400'}
+            height={20}
             _hover={{ bg: 'orange.500' }}>
             Оставить заявку
           </Button>
-          <Button rounded={'full'} px={6}>
+          <Button rounded={'full'} px={6} height={20}>
             Узнать больше
           </Button>
         </Stack>

@@ -163,6 +163,7 @@ export default function ContactForm() {
                 bg={'gray.100'}
                 border={0}
                 color={'gray.500'}
+                type = "name"
                 _placeholder={{
                   color: 'gray.500',
                 }}
@@ -172,8 +173,9 @@ export default function ContactForm() {
                 bg={'gray.100'}
                 border={0}
                 color={'gray.500'}
+                type = "fname"
                 _placeholder={{
-                  opacity: 0.6, color: 'tomato'
+                  opacity: 0.4, color: 'tomato'
                 }}
               />
               
@@ -184,15 +186,17 @@ export default function ContactForm() {
                 color={'gray.500'}
                 _placeholder={{
                   color: 'gray.500',
+                  
                 }}
               />
-              <Text mb='2px'>Заезд: </Text>
+              <Text mb='2px' opacity={0.5}>Заезд: </Text>
                 <Input
                 placeholder="Select Date and Time"
                 size="md"
                 type="datetime-local"
+                
                 />
-                <Text mb='2px'>Выезд: </Text>
+                <Text mb='2px' opacity={0.5}>Выезд: </Text>
                 <Input
                 placeholder="Select Date and Time"
                 size="md"
@@ -205,6 +209,7 @@ export default function ContactForm() {
                 color={'gray.500'}
                 _placeholder={{
                   color: 'gray.500',
+                  
                 }}
                 
               />

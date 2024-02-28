@@ -22,7 +22,7 @@ export default function SimpleAccordion() {
       justify={'center'}
       bg={useColorModeValue('gray.50', 'gray.800')}>
       <Container>
-      <Heading pb = {4}>Часто задаваемые вопросы</Heading>
+      <Heading pb = {4} >Часто задаваемые вопросы</Heading>
         <Accordion allowMultiple width="100%" maxW="lg" rounded="lg">
           <AccordionItem>
             <AccordionButton
@@ -30,13 +30,12 @@ export default function SimpleAccordion() {
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="md">What is Chakra UI?</Text>
+              <Text fontSize="md">Нужен ли ветеринарный паспорт?</Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text color="gray.600">
-                Chakra UI is a simple and modular component library that gives developers
-                the building blocks they need to create web applications.
+              Животное должно быть привито. Паспорт нужен, но не обязателен. Если у вас нет паспорта, то в качестве подтверждения достаточно справки или чека. Для заселение необходима ежегодная вакцинация питомца или иммунная сыворотка, сделанная накануне заселения. Сыворотка это альтернатива вакцине с действием на 2-3 недели, проводиться для защиты и повышения иммунитета питомца. Обязательна обработка животного от блох. Можем сделать при заселении.
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -46,14 +45,18 @@ export default function SimpleAccordion() {
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="md">What advantages to use?</Text>
+              <Text fontSize="md">Что нужно взять с собой для котика в гостиницу?</Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text color="gray.600">
-                Chakra UI offers a variety of advantages including ease of use,
-                accessibility, and customization options. It also provides a comprehensive
-                set of UI components and is fully compatible with React.
+              С собой котику будут нужны:
+- лоток+совочек,
+- 2 миски,
+- лежанка (коврик, полотенце)
+- по желанию: игрушки, когтеточка, домик, корм, наполнитель, вкусности, также котика необходимо передавать в переноске.
+
+* Если у вас нет лотка, совочка и мисок или вы вдруг забудете их взять, то можете воспользоваться нашими напрокат.
               </Text>
             </AccordionPanel>
           </AccordionItem>
@@ -63,15 +66,19 @@ export default function SimpleAccordion() {
               alignItems="center"
               justifyContent="space-between"
               p={4}>
-              <Text fontSize="md">How to start using Chakra UI?</Text>
+              <Text fontSize="md">Условия в номерах</Text>
               <ChevronDownIcon fontSize="24px" />
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text color="gray.600">
-                To get started with Chakra UI, you can install it via npm or yarn, and
-                then import the components you need in your project. The Chakra UI
-                documentation is also a great resource for getting started and learning
-                more about the library.
+              - Предоставляете ли вы лоток, совок, миски?
+Да, на платной основе.
+
+-Можно ли поселить двух котиков в 1 номер?
+Да, мы заселяем двух котиков в один номер, доплата за второго котика 50% от стоимости номера.
+
+- Как часто вы меняете наполнитель и воду?
+Воду меняем утром и вечером, а также следим в течение дня, чтобы она всегда была. Мы всегда следим за тем, чтобы лоток был чистый, так как смена наполнителя зависит от его типа.
               </Text>
             </AccordionPanel>
           </AccordionItem>
