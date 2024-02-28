@@ -173,7 +173,7 @@ export default function ContactForm() {
                 border={0}
                 color={'gray.500'}
                 _placeholder={{
-                  color: 'gray.500',
+                  opacity: 0.6, color: 'tomato'
                 }}
               />
               
@@ -186,6 +186,18 @@ export default function ContactForm() {
                   color: 'gray.500',
                 }}
               />
+              <Text mb='2px'>Заезд: </Text>
+                <Input
+                placeholder="Select Date and Time"
+                size="md"
+                type="datetime-local"
+                />
+                <Text mb='2px'>Выезд: </Text>
+                <Input
+                placeholder="Select Date and Time"
+                size="md"
+                type="datetime-local"
+                />
               <Input
                 placeholder="+7 (___) __-___-___"
                 bg={'gray.100'}
@@ -194,6 +206,7 @@ export default function ContactForm() {
                 _placeholder={{
                   color: 'gray.500',
                 }}
+                
               />
               
               
