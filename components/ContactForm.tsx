@@ -147,9 +147,9 @@ export default function ContactForm() {
               color={'gray.800'}
               lineHeight={1.1}
               fontSize={{ base: '2xl', sm: '3xl', md: '4xl' }}>
-              Оставить заявку
+              Оставить {' '}
               <Text as={'span'} bgGradient="linear(to-r, red.400,pink.400)" bgClip="text">
-                !
+               заявку
               </Text>
             </Heading>
             <Text color={'gray.500'} fontSize={{ base: 'sm', sm: 'md' }}>
