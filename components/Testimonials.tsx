@@ -104,7 +104,7 @@ export default function Testimonials() {
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
           <Heading>О нас говорят</Heading>
-          <Text>Lorem ipsum dolor sit amet consectetur adipisicing elit.</Text>
+          <Text>Отзывы наших клиентов о Kitty House:</Text>
         </Stack>
         <Stack
           direction={{ base: 'column', md: 'row' }}
@@ -113,8 +113,8 @@ export default function Testimonials() {
             <TestimonialContent>
               <TestimonialHeading>Очень уютно</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed
-                imperdiet nibh lectus feugiat nunc sem.
+              Отель Kitty House - место, где ваш кот будет царем! 
+              Удивительный сервис, заботливый персонал и радушная атмосфера. Обязательно вернемся снова!
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
@@ -122,15 +122,15 @@ export default function Testimonials() {
                 'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
               }
               name={'Мария А.'}
-              title={'CEO at ABC Corporation'}
+              title={''}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
               <TestimonialHeading>Кот доволен</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed
-                imperdiet nibh lectus feugiat nunc sem.
+              В Kitty House мой кот нашел свой дом вдали от дома. 
+              Профессиональный персонал, игровые зоны и внимание к деталям делают этот отель идеальным выбором для кошачьего отдыха.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
@@ -138,15 +138,14 @@ export default function Testimonials() {
                 'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
               }
               name={'Дмитрий Х.'}
-              title={'CEO at ABC Corporation'}
+              title={''}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
               <TestimonialHeading>Удобное решение</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed
-                imperdiet nibh lectus feugiat nunc sem.
+              Kitty House - лучший отель для кошек! Моя пушистая подруга была в восторге от пребывания здесь. Спасибо за заботу и уютные номера!
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
@@ -154,7 +153,7 @@ export default function Testimonials() {
                 'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
               }
               name={'Артемий Л.'}
-              title={'CEO at ABC Corporation'}
+              title={''}
             />
           </Testimonial>
         </Stack>
