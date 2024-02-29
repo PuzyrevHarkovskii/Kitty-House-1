@@ -17,12 +17,12 @@ import { ChevronDownIcon } from '@chakra-ui/icons'
 export default function SimpleAccordion() {
   return (
     <Flex
-      minH={'40vh'}
+      minH={'50vh'}
       align={'center'}
       justify={'center'}
       bg={useColorModeValue('gray.50', 'gray.800')}>
       <Container>
-      <Heading pb = {4} >Часто задаваемые вопросы</Heading>
+      <Heading pb = {6}>Часто задаваемые вопросы</Heading>
         <Accordion allowMultiple width="100%" maxW="lg" rounded="lg">
           <AccordionItem>
             <AccordionButton
@@ -71,7 +71,7 @@ export default function SimpleAccordion() {
             </AccordionButton>
             <AccordionPanel pb={4}>
               <Text color="gray.600">
-              - Предоставляете ли вы лоток, совок, миски?
+                - Предоставляете ли вы лоток, совок, миски?
 Да, на платной основе.
 
 -Можно ли поселить двух котиков в 1 номер?
