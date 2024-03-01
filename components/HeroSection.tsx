@@ -848,7 +848,7 @@ export default function HeroSection() {
         </Text>
         <Stack spacing={6} direction={'row'}>
           <Button
-          fontSize={24}
+          fontSize={20}
             rounded={'full'}
             px={6}
             colorScheme={'orange'}
@@ -857,7 +857,7 @@ export default function HeroSection() {
             _hover={{ bg: 'red.500' }}>
             Оставить заявку
           </Button>
-          <Button rounded={'full'} px={6} height={20} fontSize={24}>
+          <Button rounded={'full'} px={6} height={20} fontSize={20}>
             Узнать больше
           </Button>
         </Stack>
