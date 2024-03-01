@@ -255,12 +255,12 @@ const NAV_ITEMS: Array<NavItem> = [
     children: [
       {
         label: 'О нас',
-        subLabel: 'Find your dream design job',
+        subLabel: 'Какая-то инфа про нас',
         href: '#',
       },
       {
         label: 'Содержание номеров',
-        subLabel: 'An exclusive list for contract work',
+        subLabel: 'Какая-то инфа про содержание номеров',
         href: '#',
       },
     ],
