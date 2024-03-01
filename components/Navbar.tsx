@@ -25,6 +25,8 @@ import {
 
 
 
+import ColorModeToggle from './ColorModeToggle'
+
 export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure()
 
@@ -88,6 +90,7 @@ export default function Navbar() {
             }}>
             Оставить заявку
           </Button>
+          <ColorModeToggle />
         </Stack>
       </Flex>
 
