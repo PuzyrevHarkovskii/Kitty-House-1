@@ -190,17 +190,18 @@ export default function ContactForm() {
                   
                 }}
               />
-              <Text mb='2px' opacity={0.5}>Заезд: </Text>
+              <Text color={'gray.500'} mb='2px' opacity={0.5}>Заезд: </Text>
                 <Input
                 bg={'gray.100'}
                 placeholder="Select Date and Time"
                 size="md"
                 type="datetime-local"
-                
+                color={'gray.500'}
                 />
-                <Text mb='2px' opacity={0.5}>Выезд: </Text>
+                <Text color={'gray.500'} mb='2px' opacity={0.5}>Выезд: </Text>
                 <Input
                 bg={'gray.100'}
+                color={'gray.500'}
                 placeholder="Select Date and Time"
                 size="md"
                 type="datetime-local"

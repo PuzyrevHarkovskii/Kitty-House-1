@@ -75,7 +75,7 @@ export default function Navbar() {
           direction={'row'}
           spacing={6}>
           <Button as={'a'} fontSize={'sm'} fontWeight={400} variant={'link'} href={'#'}>
-            Оставить заявку
+            Заказать звонок
           </Button>
           <Button
             as={'a'}
@@ -251,41 +251,26 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
-    label: 'Inspiration',
+    label: 'Информация',
     children: [
       {
-        label: 'Explore Design Work',
-        subLabel: 'Trending Design to inspire you',
-        href: '#',
-      },
-      {
-        label: 'New & Noteworthy',
-        subLabel: 'Up-and-coming Designers',
-        href: '#',
-      },
-    ],
-  },
-  {
-    label: 'Find Work',
-    children: [
-      {
-        label: 'Job Board',
+        label: 'О нас',
         subLabel: 'Find your dream design job',
         href: '#',
       },
       {
-        label: 'Freelance Projects',
+        label: 'Содержание номеров',
         subLabel: 'An exclusive list for contract work',
         href: '#',
       },
     ],
   },
   {
-    label: 'Learn Design',
+    label: 'Отзывы',
     href: '#',
   },
   {
-    label: 'Hire Designers',
+    label: 'Правила',
     href: '#',
   },
 ]
