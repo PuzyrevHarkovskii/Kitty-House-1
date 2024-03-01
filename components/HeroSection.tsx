@@ -11,6 +11,8 @@ import {
   IconProps,
 } from '@chakra-ui/react'
 
+
+
 const Illustration = (props: IconProps) => {
   return (
     <Icon
@@ -837,7 +839,7 @@ export default function HeroSection() {
           fontSize={{ base: '7xl', sm: '7xl', md: '8xl' }}
           lineHeight={'110%'}>
           Оставьте вашу кошку в {' '}
-          <Text as={'span'} color={'orange.400'}>
+          <Text as={'span'} color={'red.400'}>
             Kitty House
           </Text>
         </Heading>
@@ -849,9 +851,9 @@ export default function HeroSection() {
             rounded={'full'}
             px={6}
             colorScheme={'orange'}
-            bg={'orange.400'}
+            bg={'red.400'}
             height={20}
-            _hover={{ bg: 'orange.500' }}>
+            _hover={{ bg: 'red.500' }}>
             Оставить заявку
           </Button>
           <Button rounded={'full'} px={6} height={20}>

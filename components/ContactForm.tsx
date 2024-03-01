@@ -153,7 +153,8 @@ export default function ContactForm() {
               </Text>
             </Heading>
             <Text color={'gray.500'} fontSize={{ base: 'sm', sm: 'md' }}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus hic deleniti, doloremque distinctio nesciunt tenetur. 
+            Оставьте заявку прямо сейчас для бронирования места. 
+            Наш менеджер свяжется с вами для подтверждения брони. 
             </Text>
           </Stack>
           <Box as={'form'} mt={2}>

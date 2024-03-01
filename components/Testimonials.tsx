@@ -119,7 +119,7 @@ export default function Testimonials() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQbeA0VYvJNPlIiVn3ikDpPK83cee2NKXPvA&usqp=CAU'
               }
               name={'Мария А.'}
               title={''}
@@ -135,7 +135,7 @@ export default function Testimonials() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                'https://static.sobaka.ru/images/image/00/93/44/95/_normal.jpg?v=1517261117'
               }
               name={'Дмитрий Х.'}
               title={''}
@@ -150,7 +150,7 @@ export default function Testimonials() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                'https://vokrug.tv/pic/news/4/5/7/1/4571109b4893a2bfc11307b7066a9076.jpg'
               }
               name={'Артемий Л.'}
               title={''}

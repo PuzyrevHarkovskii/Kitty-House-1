@@ -15,9 +15,9 @@ import {
 import { FaCheckCircle } from 'react-icons/fa'
 
 const options = [
-  { id: 1, desc: '1 lorem ipsum' },
-  { id: 2, desc: 'Lorem, ipsum dolor.' },
-  { id: 3, desc: 'Monthly Updates' },
+  { id: 1, desc: 'Игрушки, зона отдыха' },
+  { id: 2, desc: 'Когтеточка, лоток' },
+  { id: 3, desc: 'Видеонаблюдение' },
 ]
 interface PackageTierProps {
   title: string
@@ -27,7 +27,7 @@ interface PackageTierProps {
 }
 const PackageTier = ({ title, options, typePlan, checked = false }: PackageTierProps) => {
   const colorTextLight = checked ? 'white' : 'purple.600'
-  const bgColorLight = checked ? 'purple.400' : 'gray.300'
+  const bgColorLight = checked ? 'red.400' : 'gray.300'
 
   const colorTextDark = checked ? 'white' : 'purple.500'
   const bgColorDark = checked ? 'purple.400' : 'gray.300'
@@ -88,7 +88,7 @@ const ThreeTierPricingHorizontal = () => {
             }}
             textAlign={'center'}>
             <Heading size={'lg'}>
-              Наши <Text color="purple.400">Тарифы</Text>
+              Наши <Text color="red.400">Тарифы</Text>
             </Heading>
           </Stack>
           <Stack
@@ -97,8 +97,9 @@ const ThreeTierPricingHorizontal = () => {
               md: '60%',
             }}>
             <Text textAlign={'center'}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam quod in
-              iure vero. Facilis magnam, sed officiis commodi labore odit.
+            Мы предлагаем различные уютные 
+            номера для вашего питомца: от стандартных до люксовых, 
+            чтобы ваша кошка чувствовала себя как дома в нашем отеле.
             </Text>
           </Stack>
         </Stack>
