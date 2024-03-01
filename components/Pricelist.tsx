@@ -87,7 +87,7 @@ const ThreeTierPricingHorizontal = () => {
               md: '40%',
             }}
             textAlign={'center'}>
-            <Heading size={'lg'}>
+            <Heading size={'2xl'}>
               Наши <Text color="red.400">Тарифы</Text>
             </Heading>
           </Stack>

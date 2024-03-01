@@ -192,6 +192,7 @@ export default function ContactForm() {
               />
               <Text mb='2px' opacity={0.5}>Заезд: </Text>
                 <Input
+                bg={'gray.100'}
                 placeholder="Select Date and Time"
                 size="md"
                 type="datetime-local"
@@ -199,6 +200,7 @@ export default function ContactForm() {
                 />
                 <Text mb='2px' opacity={0.5}>Выезд: </Text>
                 <Input
+                bg={'gray.100'}
                 placeholder="Select Date and Time"
                 size="md"
                 type="datetime-local"
