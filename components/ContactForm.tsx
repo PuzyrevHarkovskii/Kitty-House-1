@@ -180,16 +180,6 @@ export default function ContactForm() {
                 }}
               />
               
-              <Input
-                placeholder="name@mail.ru"
-                bg={'gray.100'}
-                border={0}
-                color={'gray.500'}
-                _placeholder={{
-                  color: 'gray.500',
-                  
-                }}
-              />
               <Text color={'gray.500'} mb='2px' opacity={0.5}>Заезд: </Text>
                 <Input
                 bg={'gray.100'}
