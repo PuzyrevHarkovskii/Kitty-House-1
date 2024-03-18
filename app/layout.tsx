@@ -21,8 +21,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <WhatsappButton/>
+      <WhatsappButton/>
         <ChakraProvider>
+          
           <Navbar />{children}
           <Footer/>
           
