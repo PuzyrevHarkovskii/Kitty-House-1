@@ -5,7 +5,7 @@ import Navbar from '@/components/Navbar';
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Footer from '@/components/Footer';
-
+import WhatsappButton from '@/components/WhatsappButton'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,10 +21,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <WhatsappButton/>
         <ChakraProvider>
           <Navbar />{children}
           <Footer/>
+          
         </ChakraProvider>
+        
       </body>
     </html>
   );

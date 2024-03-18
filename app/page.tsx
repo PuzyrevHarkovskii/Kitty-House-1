@@ -7,6 +7,7 @@ import ThreeTierPricingHorizontal from "@/components/Pricelist"; // Pricelist
 import Carousel from "@/components/Carousel";
 import SimpleAccordion from "@/components/SimpleAccordion";
 
+
 export default function Home() {
   return (
     <>
@@ -15,9 +16,11 @@ export default function Home() {
     <Features/>
     <Testimonials/>
     <SimpleAccordion/>
+
     <ThreeTierPricingHorizontal/>
     <Carousel/>
     <ContactForm/>
+   
     </>
   );
 }
