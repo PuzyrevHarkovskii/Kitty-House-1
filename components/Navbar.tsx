@@ -24,7 +24,6 @@ import {
 } from '@chakra-ui/icons'
 
 
-
 import ColorModeToggle from './ColorModeToggle'
 
 export default function Navbar() {
@@ -146,11 +145,13 @@ const DesktopNav = () => {
         </Box>
       ))}
     </Stack>
+    
   )
 }
 
 const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
   return (
+    
     <Box
       as="a"
       href={href}
@@ -181,6 +182,7 @@ const DesktopSubNav = ({ label, href, subLabel }: NavItem) => {
         </Flex>
       </Stack>
     </Box>
+    
   )
 }
 
@@ -198,6 +200,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
   const { isOpen, onToggle } = useDisclosure()
 
   return (
+    
     <Stack spacing={4} onClick={children && onToggle}>
       <Box
         py={2}
@@ -239,6 +242,7 @@ const MobileNavItem = ({ label, children, href }: NavItem) => {
         </Stack>
       </Collapse>
     </Stack>
+    
   )
 }
 
