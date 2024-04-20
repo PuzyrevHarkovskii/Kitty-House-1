@@ -1,5 +1,7 @@
 'use client'
+import * as emailjs from 'emailjs';
 
+import {SendMail} from "./script"
 import {
   Box,
   Flex,
@@ -63,6 +65,7 @@ const Blur = (props: IconProps) => {
 
 export default function ContactForm() {
   return (
+    
     <Box position={'relative'}>
       <Container
         as={SimpleGrid}
@@ -160,6 +163,7 @@ export default function ContactForm() {
           <Box as={'form'} mt={2}>
             <Stack spacing={4}>
             <Input
+              id = "name"
                 placeholder="Имя"
                 bg={'gray.100'}
                 border={0}
@@ -170,6 +174,7 @@ export default function ContactForm() {
                 }}
               />
               <Input
+              id = "pet_name"
                 placeholder="Имя питомца"
                 bg={'gray.100'}
                 border={0}
@@ -182,6 +187,8 @@ export default function ContactForm() {
               
               <Text color={'gray.500'} mb='2px' opacity={0.5}>Заезд: </Text>
                 <Input
+                id = "arrive_date"
+                required
                 bg={'gray.100'}
                 placeholder="Select Date and Time"
                 size="md"
@@ -190,6 +197,8 @@ export default function ContactForm() {
                 />
                 <Text color={'gray.500'} mb='2px' opacity={0.5}>Выезд: </Text>
                 <Input
+                id = "exit_date"
+                required
                 bg={'gray.100'}
                 color={'gray.500'}
                 placeholder="Select Date and Time"
@@ -197,6 +206,8 @@ export default function ContactForm() {
                 type="datetime-local"
                 />
               <Input
+              id = "phone_number"
+              required
                 placeholder="+7 (___) __-___-___"
                 bg={'gray.100'}
                 border={0}
@@ -211,6 +222,8 @@ export default function ContactForm() {
               
             </Stack>
             <Button
+            
+              onClick={SendMail}
               fontFamily={'heading'}
               mt={8}
               w={'full'}
@@ -227,6 +240,9 @@ export default function ContactForm() {
         </Stack>
       </Container>
       <Blur position={'absolute'} top={-10} left={-10} style={{ filter: 'blur(70px)' }} />
+      
     </Box>
   )
+  
 }
+

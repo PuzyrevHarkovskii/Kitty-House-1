@@ -70,20 +70,9 @@ export default function Footer() {
         spacing={4}
         justify={'center'}
         align={'center'}>
-        <Logo />
+        
         <Stack direction={'row'} spacing={6}>
-          <Box as="a" href={'#'}>
-            О нас
-          </Box>
-          <Box as="a" href={'#'}>
-            Отзывы
-          </Box>
-          <Box as="a" href={'#'}>
-            Контакты
-          </Box>
-          <Box as="a" href={'#'}>
-            Условия
-          </Box>
+          
         </Stack>
       </Container>
 
