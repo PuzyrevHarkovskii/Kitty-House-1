@@ -9,6 +9,7 @@ import SimpleAccordion from "@/components/SimpleAccordion";
 import WhatsappCallback from "@/components/WhatsappButton";
 
 
+
 export default function Home() {
   return (
     <>

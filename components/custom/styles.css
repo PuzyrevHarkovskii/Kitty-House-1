@@ -1,0 +1,7 @@
+.myComponent {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to top, #f633a7, #000);
+    cursor: url(https://i.imgur.com/GcV9k0y.png), auto;
+  }
+  
